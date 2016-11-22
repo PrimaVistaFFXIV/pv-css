@@ -207,8 +207,7 @@ li {
 }
 
 .mdl-quest {
-	max-width: 376px;
-	width: 100%;
+	width: 560px;
 	margin: 0 auto 32px;
 	border: 1px solid #b3b3b3;
 	-moz-border-radius: 8px;
@@ -328,8 +327,7 @@ li {
 }
 	
 .mdl-table__list {
-	max-width: 560px;
-	width: 100%;
+	width: 560px;
 	margin-left: auto;
 	margin-right: auto;
 }
