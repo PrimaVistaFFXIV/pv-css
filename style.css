@@ -335,7 +335,11 @@ li {
 .mdl-table__thead>div:first-child {
 	margin-right: 10px;
 }
-	
+
+.mdl-table__tbody>div:first-child {
+    padding-right: 10px;
+}
+
 .mdl-table__list__th--same {
 	font-size: 14px;
 	background: #75b324;
