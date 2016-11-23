@@ -67,6 +67,20 @@ img.mdl-img__quest {
 	margin: 0 auto 24px;
 }
 
+.mdl-img__normal {
+    	margin-bottom: 32px;
+    	text-align: center;
+}
+
+.mdl-img__radius {
+    	-moz-border-radius: 8px;
+    	-webkit-border-radius: 8px;
+   	 border-radius: 8px;
+    	overflow: hidden;
+    	max-width: 100%;
+    	height: auto;
+}
+
 .mdl-text__sm {
 	margin-bottom: 32px;
 	font-size: 14px;
