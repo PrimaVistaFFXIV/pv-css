@@ -406,7 +406,7 @@ li {
 .db-view__icon {
     	padding: 0 0 10px 40px;
     	position: relative;
-	width: 440px;
+	width: 540px;
 	margin: 0 auto 0;
 }
 
@@ -432,7 +432,7 @@ li {
 
 .db-view__detail__lname_name {
     	font-size: 16px;
-    	font-weight: normal;
+    	font-weight: bold;
     	line-height: 1.2;
 	margin-top: 0;
     	margin-bottom: 0;
