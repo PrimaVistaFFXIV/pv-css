@@ -397,3 +397,52 @@ li {
 	box-sizing: border-box;
 	font-size: 12px;
 }
+
+.db-view__detail__visual {
+    	margin-bottom: 10px;
+    	text-align: center;
+}
+
+.db-view__icon {
+    	padding: 0 0 10px 40px;
+    	position: relative;
+	width: 440px;
+}
+
+.db-view__icon:before {
+    	content: " ";
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+}
+
+.db-view__icon--dungeons:before {
+    	width: 32px;
+    	height: 32px;
+    	background-position: -90px 0;
+    	-moz-background-size: 996px auto;
+    	-o-background-size: 996px auto;
+    	-webkit-background-size: 996px auto;
+    	background-size: 996px auto;
+    	display: block;
+    	background-image: url(http://img.finalfantasyxiv.com/lds/pc/global/img/icon_sprite/db-se9e1790db1.png);
+    	background-repeat: no-repeat;
+}
+
+.db-view__detail__lname_name {
+    	font-size: 16px;
+    	font-weight: normal;
+    	line-height: 1.2;
+}
+
+.db-view__detail__level {
+    	font-size: 12px;
+    	margin-right: 12px;
+    	display: inline-block;
+}
+
+.db-view__detail__content_type {
+    	font-size: 12px;
+    	color: gray;
+    	display: inline-block;
+}
