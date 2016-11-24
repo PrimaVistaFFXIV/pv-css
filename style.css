@@ -373,6 +373,7 @@ li {
 
 .mdl-table__tbody>div:first-child {
     	padding-right: 10px;
+	width: 285px;
 }
 	
 .mdl-layout__center {
