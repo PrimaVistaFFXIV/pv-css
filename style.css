@@ -350,10 +350,6 @@ li {
 	margin-right: 10px;
 }
 
-.mdl-table__tbody>div:first-child {
-    	padding-right: 10px;
-}
-
 .mdl-table__list__th--same {
 	font-size: 14px;
 	background: #75b324;
@@ -373,6 +369,10 @@ li {
 	
 .mdl-table__tbody {
 	border-bottom: 1px solid #b3b3b3;
+}
+
+.mdl-table__tbody>div:first-child {
+    	padding-right: 10px;
 }
 	
 .mdl-layout__center {
