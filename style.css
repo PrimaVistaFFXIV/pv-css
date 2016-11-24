@@ -118,12 +118,12 @@ img.mdl-img__quest {
 
 .mdl-list__ver--3:before {
     	content: "";
-    	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ver_3.svg?1476350994) no-repeat left center;
-    	-moz-background-size: 40px 23px;
-    	-o-background-size: 40px 23px;
-    	-webkit-background-size: 40px 23px;
-    	background-size: 40px 23px;
-    	width: 40px;
+    	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/58370c0c002aa806ce6e3675.svg) no-repeat left center;
+    	-moz-background-size: 45px 23px;
+    	-o-background-size: 45px 23px;
+    	-webkit-background-size: 45px 23px;
+    	background-size: 45px 23px;
+    	width: 45px;
     	height: 23px;
     	display: block;
     	position: absolute;
