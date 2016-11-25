@@ -54,8 +54,8 @@
 
 /*### VISIAL STYLE ###*/
 .video {
-	display: block;
-	margin: 0 auto 24px;
+	text-align: center;
+	margin-bottom: 24px;
 }
 
 img.mdl-img__visual {
