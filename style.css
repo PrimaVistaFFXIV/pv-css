@@ -53,6 +53,11 @@
 /*### ####*/
 
 /*### VISIAL STYLE ###*/
+.video {
+	display: block;
+	margin: 0 auto 24px;
+}
+
 img.mdl-img__visual {
 	display: block;
 	max-width: 530px;
