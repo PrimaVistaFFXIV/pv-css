@@ -137,6 +137,26 @@ img.mdl-img__quest {
     	margin-top: -12px;
 }
 
+.mdl-list__ver--38 {
+    position: relative;
+}
+
+.mdl-list__ver--38:before {
+    	content: "";
+    	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5837109c002aa806ce6e372a.svg) no-repeat left center;
+    	-moz-background-size: 47.5px 23px;
+    	-o-background-size: 47.5px 23px;
+    	-webkit-background-size: 47.5px 23px;
+    	background-size: 47.5px 23px;
+    	width: 47.5px;
+    	height: 23px;
+    	display: block;
+    	position: absolute;
+    	top: 50%;
+    	left: 0;
+    	margin-top: -12px;
+}
+
 .mdl-title__guide {
 	position: relative;
 	margin-top: 16px;
