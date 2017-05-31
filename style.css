@@ -1,8 +1,9 @@
 /*### BACK TO TOP - CODE ###*/
 .cd-top {
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
 	position: fixed;
 	bottom: 40px;
 	right: 10px;
@@ -74,17 +75,17 @@ img.mdl-img__quest {
 }
 
 .mdl-img__normal {
-    margin-bottom: 32px;
-    text-align: center;
+	margin-bottom: 32px;
+	text-align: center;
 }
 
 .mdl-img__radius {
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-   	 border-radius: 8px;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
 }
 
 .mdl-text__sm {
@@ -98,64 +99,64 @@ img.mdl-img__quest {
 }
 
 .mdl-list__ver {
-    margin: 0 10px 32px;
-    padding: 10px 8px 0 8px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    border: 1px solid #999;
-    height: 1%;
+	margin: 0 10px 32px;
+	padding: 10px 8px 0 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #999;
+	height: 1%;
 	list-style: none;
 }
 
 .mdl-list__ver li {
-    min-height: 23px;
-    margin-bottom: 6px;
-    padding-left: 92px;
-    vertical-align: middle;
-    font-size: 12px;
-    line-height: 1.3;
+	min-height: 23px;
+	margin-bottom: 6px;
+	padding-left: 92px;
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 1.3;
 	list-style: none;
 }
 
 .mdl-list__ver--3 {
-    position: relative;
+	position: relative;
 }
 
 .mdl-list__ver--3:before {
-    	content: "";
-    	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/58370c0c002aa806ce6e3675.svg) no-repeat left center;
-    	-moz-background-size: 47.5px 23px;
-    	-o-background-size: 47.5px 23px;
-    	-webkit-background-size: 47.5px 23px;
-    	background-size: 47.5px 23px;
-    	width: 47.5px;
-    	height: 23px;
-    	display: block;
-    	position: absolute;
-    	top: 50%;
-    	left: 0;
-    	margin-top: -12px;
+	content: "";
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/58370c0c002aa806ce6e3675.svg) no-repeat left center;
+	-moz-background-size: 47.5px 23px;
+	-o-background-size: 47.5px 23px;
+	-webkit-background-size: 47.5px 23px;
+	background-size: 47.5px 23px;
+	width: 47.5px;
+	height: 23px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -12px;
 }
 
 .mdl-list__ver--38 {
-    position: relative;
+	position: relative;
 }
 
 .mdl-list__ver--38:before {
-    	content: "";
-    	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5837109c002aa806ce6e372a.svg) no-repeat left center;
-    	-moz-background-size: 47.5px 23px;
-    	-o-background-size: 47.5px 23px;
-    	-webkit-background-size: 47.5px 23px;
-    	background-size: 47.5px 23px;
-    	width: 47.5px;
-    	height: 23px;
-    	display: block;
-    	position: absolute;
-    	top: 50%;
-    	left: 0;
-    	margin-top: -12px;
+	content: "";
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5837109c002aa806ce6e372a.svg) no-repeat left center;
+	-moz-background-size: 47.5px 23px;
+	-o-background-size: 47.5px 23px;
+	-webkit-background-size: 47.5px 23px;
+	background-size: 47.5px 23px;
+	width: 47.5px;
+	height: 23px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -12px;
 }
 
 .mdl-title__guide {
@@ -181,7 +182,7 @@ img.mdl-img__quest {
 	display: block;
 	font-weight: bold;
 }
-	
+
 .mdl-title__ancher {
 	position: relative;
 	margin: 0 0 10px -30px;
@@ -197,7 +198,7 @@ img.mdl-img__quest {
 	font-weight: bold;
 	line-height: 1.5;
 }
-	
+
 .mdl-title__category {
 	position: relative;
 	padding: 8px 30px 8px 60px;
@@ -211,7 +212,7 @@ img.mdl-img__quest {
 	box-sizing: border-box;
 	height: auto;
 }
-	
+
 .mdl-title__category h2 {
 	font-size: 30px;
 	color: #fff;
@@ -263,7 +264,7 @@ img.mdl-img__quest {
 .mdl-list__basic {
 	margin-bottom: 32px;
 }
-	
+
 .mdl-list__basic li {
 	padding: 0 0 0 28px;
 	margin: 0 0 16px 0;
@@ -320,7 +321,7 @@ li {
 	overflow: hidden;
 	padding-bottom: 2px;
 }
-	
+
 .mdl-quest h4 {
 	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_quest.svg?1476350994) no-repeat 99% center #e6e6e6;
 	-moz-background-size: 25px 32px;
@@ -337,17 +338,17 @@ li {
 	vertical-align: baseline;
 	line-height: 1.5;	
 }
-	
+
 .mdl-quest dl {
 	margin: 0 10px;
 }
-	
+
 .mdl-quest dl dt {
 	margin-bottom: 8px;
 	padding-left: 24px;
 	font-weight: normal;
 }
-	
+
 .mdl-quest__level {
 	background: url(http://img.finalfantasyxiv.com/lds/pc/en/img/news/level.svg?1476350984) no-repeat left top;
 	-moz-background-size: 20px 20px;
@@ -355,7 +356,7 @@ li {
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
-	
+
 .mdl-quest__place {
 	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_place.svg?1476350994) no-repeat left top;
 	-moz-background-size: 20px 20px;
@@ -363,7 +364,7 @@ li {
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
-	
+
 .mdl-quest__npc {
 	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_npc.svg?1476350994) no-repeat left top;
 	-moz-background-size: 20px 20px;
@@ -371,7 +372,7 @@ li {
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
-	
+
 .mdl-quest__terms {
 	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_terms.svg?1476350994) no-repeat left top;
 	-moz-background-size: 20px 20px;
@@ -379,7 +380,7 @@ li {
 	-webkit-background-size: 20px 20px;
 	background-size: 20px 20px;
 }
-	
+
 .mdl-color__green {
 	color: #6b993d !important;
 }
@@ -387,19 +388,19 @@ li {
 .mdl-color__orange {
 	color: #d98041 !important;
 }
-	
+
 .mdl-space--0 {
 	margin-bottom: 0px !important;
 }
-	
+
 .mdl-space--xs {
 	margin-bottom: 8px !important;
 }
-	
+
 .mdl-space--sm {
 	margin-bottom: 16px !important;
 }
-	
+
 .mdl-space--md {
 	margin-bottom: 24px !important;
 }
@@ -407,14 +408,14 @@ li {
 .mdl-space--lg {
 	margin-bottom: 32px !important;
 }
-	
+
 .mdl-title__heading--sm {
 	margin-top: 0px;
 	margin-bottom: 8px;
 	font-weight: bold;
 	font-size: 14px;
 }
-	
+
 .mdl-title__heading--lg {
 	margin-top: 0px;
 	margin-bottom: 16px;
@@ -425,21 +426,21 @@ li {
 	line-height: 1.2;
 	border-bottom: 4px solid #75b324;
 }
-	
+
 .mdl-table {
 	margin: 0 auto 32px;
 }
-	
+
 .mdl-table__list {
 	width: 560px;
 	margin-left: auto;
 	margin-right: auto;
 }
-	
+
 .mdl-table__thead>div:first-child {
 	margin-right: 10px;
 }
-	
+
 .mdl-table__list__th--same {
 	font-size: 14px;
 	background: #75b324;
@@ -456,13 +457,13 @@ li {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-	
+
 .mdl-table__tbody {
 	border-bottom: 1px solid #b3b3b3;
 }
 
 .mdl-table__tbody>div:first-child {
-    padding-right: 10px;
+	padding-right: 10px;
 	width: 285px;
 }
 	
@@ -478,7 +479,7 @@ li {
 	text-align: left;
 	border-collapse: collapse;
 }
-	
+
 .mdl-table__list__td--same .inner {
 	display: block;
 	padding: 8px 10px 6px;
@@ -495,102 +496,102 @@ li {
 }
 
 .mdl-table__half__th__before {
-    float: left;
-    display: block;
-    width: 264px;
-    padding: 3px 0 2px;
-    margin-right: 16px;
-    background: #737373;
-    color: #fff;
-    text-align: center;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	float: left;
+	display: block;
+	width: 264px;
+	padding: 3px 0 2px;
+	margin-right: 16px;
+	background: #737373;
+	color: #fff;
+	text-align: center;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .mdl-table__half__th {
-    float: left;
-    display: block;
-    width: 264px;
-    padding: 3px 0 2px;
-    margin-right: 16px;
-    background: #75b324;
-    color: #fff;
-    text-align: center;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	float: left;
+	display: block;
+	width: 264px;
+	padding: 3px 0 2px;
+	margin-right: 16px;
+	background: #75b324;
+	color: #fff;
+	text-align: center;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .mdl-table__half__th:nth-last-child(1) {
-    margin-right: 0;
-    margin-left: 16px;
+	margin-right: 0;
+	margin-left: 16px;
 }
 
 .mdl-table__half.mdl-table__tbody {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .mdl-table__half.mdl-table__tbody>div:first-child {
-    padding-right: 0;
+	padding-right: 0;
 }
 
 .mdl-table__half__td--left {
-    min-width: 264px;
-    font-size: 12px;
-    border-bottom: 1px solid #b3b3b3;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-    border-collapse: collapse;
+	min-width: 264px;
+	font-size: 12px;
+	border-bottom: 1px solid #b3b3b3;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	border-collapse: collapse;
 }
 
 .mdl-table__icon--arrow {
-    background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_arrow.svg?1481779181) no-repeat center center;
-    -moz-background-size: 16px 16px;
-    -o-background-size: 16px 16px;
-    -webkit-background-size: 16px 16px;
-    background-size: 16px 16px;
-    width: 32px;
-    display: table-cell;
-    height: auto;
-    border-collapse: collapse;
+	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_arrow.svg?1481779181) no-repeat center center;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	width: 32px;
+	display: table-cell;
+	height: auto;
+	border-collapse: collapse;
 }
 
 .mdl-table__half__td--left {
-    min-width: 264px;
-    font-size: 12px;
-    border-bottom: 1px solid #b3b3b3;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-    border-collapse: collapse;
+	min-width: 264px;
+	font-size: 12px;
+	border-bottom: 1px solid #b3b3b3;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	border-collapse: collapse;
 }
 
 .mdl-table__half__td--left .inner {
-    display: block;
-    width: 264px;
-    padding: 8px 10px 6px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 12px;
+	display: block;
+	width: 264px;
+	padding: 8px 10px 6px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
 }
 
 .mdl-table__icon--arrow .inner {
-    display: block;
-    width: 32px;
+	display: block;
+	width: 32px;
 }
 
 .db-view__detail__visual {
-    margin-bottom: 10px;
-    text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .db-view__icon {
@@ -601,43 +602,43 @@ li {
 }
 
 .db-view__icon:before {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .db-view__icon--dungeons:before {
-    width: 32px;
-    height: 32px;
-    background-position: -90px 0;
-    -moz-background-size: 996px auto;
-    -o-background-size: 996px auto;
-    -webkit-background-size: 996px auto;
-    background-size: 996px auto;
-    display: block;
-    background-image: url(http://img.finalfantasyxiv.com/lds/pc/global/img/icon_sprite/db-se9e1790db1.png);
-    background-repeat: no-repeat;
+	width: 32px;
+	height: 32px;
+	background-position: -90px 0;
+	-moz-background-size: 996px auto;
+	-o-background-size: 996px auto;
+	-webkit-background-size: 996px auto;
+	background-size: 996px auto;
+	display: block;
+	background-image: url(http://img.finalfantasyxiv.com/lds/pc/global/img/icon_sprite/db-se9e1790db1.png);
+	background-repeat: no-repeat;
 }
 
 .db-view__detail__lname_name {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.2;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.2;
 	margin-top: 0;
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .db-view__detail__level {
-    font-size: 12px;
-    margin-right: 12px;
-    display: inline-block;
+	font-size: 12px;
+	margin-right: 12px;
+	display: inline-block;
 }
 
 .db-view__detail__content_type {
-    font-size: 12px;
-    color: gray;
-    display: inline-block;
+	font-size: 12px;
+	color: gray;
+	display: inline-block;
 }
 
 .mdl-table-m16 {
@@ -652,14 +653,14 @@ li {
 
 .mdl-table__layout td {
 	padding: 8px 8px 6px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #b3b3b3;
-    vertical-align: middle;
-    text-align: center;
-    border-collapse: collapse;
-    font-size: 12px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #b3b3b3;
+	vertical-align: middle;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 12px;
 }
 
 .mdl-table__layout--bdr_none {
