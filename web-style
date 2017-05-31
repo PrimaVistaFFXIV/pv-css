@@ -1,0 +1,639 @@
+/*### BACK TO TOP - CODE ###*/
+.cd-top {
+	z-index: 2;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	/* image replacement properties */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: #222222 url(https://codyhouse.co/demo/back-to-top/img/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+	/* the button becomes visible */
+	visibility: visible;
+	opacity: 1;
+}
+.cd-top.cd-fade-out {
+	/* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+	opacity: .5;
+}
+.cd-top:hover {
+	background-color: #222222;
+	opacity: 1;
+}
+/*### ###*/
+
+/*### FIX GLOBAL STYLE ###*/
+.advertising {
+	display: none;
+}
+
+.widget-wrap {
+	margin-top: 0px !important;
+}
+
+.widget-wrap>.panel {
+	border: 0px !important;
+	border-radius: 0px !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	margin-bottom: 0px !important;
+}
+
+.widget-wrap>.panel-default>.panel-heading {
+	display: none !important;
+}
+
+.widget-wrap>.panel-default>.panel-body {
+	padding: 0px !important;
+}
+
+.tab-pane {
+	padding: 15px;
+	overflow-x: auto;
+}
+/*### ####*/
+
+.pv-img_title_page {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.pv-img_title_page img {
+	max-width: 1140px;
+	width: 100%;
+	height: auto;
+}
+
+.pv-img_round {
+	border-radius: 8px !important;
+}
+
+/*### Descartar ###*/
+.pv-img_radius {
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+/*### ### ### ###*/
+
+.pv-social_links{
+	text-align: center;
+}
+
+.pv-link_list{
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.pv-item_h{
+	display: inline;
+}
+
+.pv-link_google{
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/587d1790002aa819b1e6433d.png) no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.pv-link_twitter{
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/587d22dd002aa819a60cfefe.png) no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.pv-link_youtube{
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/587d252c002aa819b1e64463.png) no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.pv-link_lodestone{
+	background: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/587d6808002aa819a60d0ec3.png) no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}
+
+.pv-link_favicon{
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-link_favicon:hover{
+	background-position: 0 bottom !important;
+}
+
+.pv-link_active{
+	background-position: 0 bottom !important;
+}
+
+.pv-category {
+	position: relative;
+	padding-left: 30px;
+	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_title.svg?1476350994) no-repeat 6px 7px;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	font-size: 20px;
+	color: #6b993d;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.pv-header {
+	padding-bottom: 9px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.pv-header>h2 {
+	margin-top: 10px;
+}
+
+.pv-page_title {
+	background-color: #f5f5f5;
+	padding: 10px 20px 10px 50px;
+	margin: 0 -20px;
+	font-weight: bold;
+}
+
+/*### Revisar ###*/
+.pv-body {
+	margin-bottom: -40px;
+}
+/*### ### ###*/
+
+/*### Eliminar ###*/
+.pv-title {
+	text-align: center;
+}
+/*### ### ###*/
+
+.pv-section {
+	margin: 40px 0;
+}
+
+.pv-section_final {
+	margin-bottom: 0 !important;
+}
+
+.pv-center {
+	text-align: center;
+}
+
+.pv-text {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.pv-img_in_text {
+	
+}
+
+.pv-img_in_text p {
+	text-align: center;
+	margin: 0px;
+}
+
+.pv-img_in_text_left {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.pv-img_in_text_right {
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.pv-image_button {
+	margin-bottom: 10px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-image_button:hover {
+	opacity: 0.75;
+}
+
+.pv-img_preview {
+	max-width: 100%;
+	height: auto;
+	max-height: 315px;
+	margin: 0 auto;
+}
+
+ul.pv-h_list{
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+ul.pv-v_list{
+	list-style: none;
+	padding: 0 20px;
+}
+
+ul.pv-h_list>li.pv-item {
+	display: inline-block;
+	text-align: left;
+	min-width: 90px;
+}
+
+ul.pv-v_list>li.pv-item {
+	text-align: left;
+}
+
+ul.pv-v_list>li.pv-item>ul.pv-h_list{
+	list-style: none;
+	display: inherit;
+	padding: 0;
+}
+
+ul.pv-h_list>li.pv-separate {
+	margin: 10px 20px;
+}
+
+ul.pv-v_list>li.pv-separate {
+	margin: 10px 0;
+}
+
+li.pv-item>.label {
+	font-size: 90%;
+	margin-left: 5px;
+}
+
+.pv-high {
+	background-color: red;
+}
+
+.pv-high::before { 
+	content: "Alt";
+}
+
+.pv-medium {
+	background-color: orange;
+}
+
+.pv-medium::before { 
+	content: "Medi";
+}
+
+.pv-low {
+	background-color: green;
+}
+
+.pv-low::before { 
+	content: "Baj";
+}
+
+.pv-character_rol_tank {
+	font-weight: 700;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-character_rol_tank:hover {
+	color: #fff;
+	background-color: #354595;
+}
+
+.pv-character_rol_healer {
+	font-weight: 700;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-character_rol_healer:hover {
+	color: #fff;
+	background-color: #3a6329;
+}
+
+.pv-character_rol_dps {
+	font-weight: 700;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-character_rol_dps:hover {
+	color: #fff;
+	background-color: #663535;
+}
+
+.pv-character_side_icon {
+	padding: 7.5px 0px 17.5px 40px;
+	position: relative;
+}
+
+.pv-character_side_icon:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35px;
+	height: 35px;
+	-moz-background-size: auto 35px;
+	-o-background-size: auto 35px;
+	-webkit-background-size: auto 35px;
+	background-size: auto 35px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5917a5ba002aa80b84fe114b.png);
+	background-repeat: no-repeat;
+}
+
+.pv-character_side_icon>p {
+	margin-bottom: 0 !important;
+}
+
+.pv-character_side_brd_icon:before {
+	background-position: 0px 0;
+}
+
+.pv-character_side_drg_icon:before {
+	background-position: -35px 0;
+}
+
+.pv-character_side_mnk_icon:before {
+	background-position: -70px 0;
+}
+
+.pv-character_side_pld_icon:before {
+	background-position: -105px 0;
+}
+
+.pv-character_side_war_icon:before {
+	background-position: -140px 0;
+}
+
+.pv-character_side_blm_icon:before {
+	background-position: -175px 0;
+}
+
+.pv-character_side_whm_icon:before {
+	background-position: -210px 0;
+}
+
+.pv-character_side_sch_icon:before {
+	background-position: -245px 0;
+}
+
+.pv-character_side_smn_icon:before {
+	background-position: -280px 0;
+}
+
+.pv-character_side_nin_icon:before {
+	background-position: -315px 0;
+}
+
+.pv-character_side_ast_icon:before {
+	background-position: -350px 0;
+}
+
+.pv-character_side_drk_icon:before {
+	background-position: -385px 0;
+}
+
+.pv-character_side_mch_icon:before {
+	background-position: -420px 0;
+}
+
+.pv-box_element {
+	background-color: #eee;
+	padding: 9px;
+	margin-top: 10px;
+	border: 1px solid #cacaca;
+	width: 232px;
+	border-radius: 6px;
+	webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.pv-interactive_element {
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.pv-progressbar_light-grey {
+	color: #000 !important;
+	background-color: #f1f1f1 !important;
+}
+
+.pv-progressbar_round {
+	border-radius: 0.25em !important;
+}
+
+.pv-progressbar_container {
+	padding: 0.01em 16px;
+}
+
+.pv-progressbar_green {
+	color: #fff !important;
+	background-color: #6b993d !important;
+}
+
+.pv-tabcontent {
+	display: none;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.pv-fading_effect {
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.pv-panel {
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+.pv-panel-heading {
+	color: #333;
+	padding: 10px 24px 10px 55px;
+	border-bottom: 1px solid #cacaca;
+	position: relative;
+}
+
+.pv-panel-heading:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+
+.pv-panel-heading-dungeon:before {
+	width: 32px;
+	height: 32px;
+	background-position: -90px 0;
+	-moz-background-size: 996px auto;
+	-o-background-size: 996px auto;
+	-webkit-background-size: 996px auto;
+	background-size: 996px auto;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5913c3b6002aa80b84fdb24c.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-trial:before {
+	width: 32px;
+	height: 32px;
+	background-position: -218px 0;
+	-moz-background-size: 996px auto;
+	-o-background-size: 996px auto;
+	-webkit-background-size: 996px auto;
+	background-size: 996px auto;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5913c3b6002aa80b84fdb24c.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-raid:before {
+	width: 32px;
+	height: 32px;
+	background-position: -186px 0;
+	-moz-background-size: 996px auto;
+	-o-background-size: 996px auto;
+	-webkit-background-size: 996px auto;
+	background-size: 996px auto;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5913c3b6002aa80b84fdb24c.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-body {
+	background-color: #fbfbfb;
+}
+
+.pv-thred {
+	padding: 5px 24px 5px 15px;
+	position: relative;
+	border-bottom: 1px solid #cacaca;
+}
+
+.pv-thred_pending {
+	padding: 5px 24px 5px 15px;
+	position: relative;
+	color: #fff;
+	background-color: #aaa;
+	border-bottom: 1px solid #cacaca;
+}
+
+.pv-thred_pending>.date {
+	color: #666;
+}
+
+.pv-thred:hover {
+	background-color: #eee;
+	cursor:pointer; cursor: hand
+}
+
+.pv-thred_expanded {
+	background-color: #eee !important;
+}
+
+.pv-thred_expanded:before {
+	background-position: 0px 0 !important;
+}
+
+.pv-thred:before {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px;
+	background-position: -32px 0;
+	-moz-background-size: 476px auto;
+	-o-background-size: 476px auto;
+	-webkit-background-size: 476px auto;
+	background-size: 476px auto;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/59135190002aa80bd767dd9b.png);
+	background-repeat: no-repeat;
+}
+
+.pv-black {
+	background-color: #eee;
+	padding: 20px 20px;
+	border-bottom: 1px solid #cacaca;
+	-webkit-animation: fadeEffect 1s;
+	animation: fadeEffect 1s;
+}
+
+.pv-patch_name {
+	display: block;
+	max-width: 330px;
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+.pv-youtube_video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pv-youtube {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.pv-youtube_container {
+	max-width: 560px;
+	max-height: 315px;
+	margin: 0 auto;
+}
+
+.pv-loading {
+	min-height: 100px;
+	background-position: 50%;
+	-moz-background-size: auto 100px;
+	-o-background-size: auto 100px;
+	-webkit-background-size: auto 100px;
+	background-size: auto 100px;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/591ed1cf002aa80bd34d023b.gif);
+	background-repeat: no-repeat;
+}
