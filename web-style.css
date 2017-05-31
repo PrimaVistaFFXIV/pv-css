@@ -41,8 +41,8 @@
 /*### ###*/
 
 /*### FIX GLOBAL STYLE ###*/
-.advertising {
-	display: none;
+#site-body {
+	display: block;
 }
 
 .widget-wrap {
