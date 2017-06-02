@@ -498,6 +498,66 @@ li.pv-item>.label {
 	left: 15px;
 }
 
+.pv-panel-heading-tank:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: 32px 32px;
+	-o-background-size: 32px 32px;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de7ba002aa8354e8bbeab.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-healer:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: 32px 32px;
+	-o-background-size: 32px 32px;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de878002aa8166c895a21.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-dps:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: 32px 32px;
+	-o-background-size: 32px 32px;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de8a6002aa84d7bbed236.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-crafter:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: 32px 32px;
+	-o-background-size: 32px 32px;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de8da002aa8166c895a28.png);
+	background-repeat: no-repeat;
+}
+
+.pv-panel-heading-gatherer:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: 32px 32px;
+	-o-background-size: 32px 32px;
+	-webkit-background-size: 32px 32px;
+	background-size: 32px 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de8e1002aa8166c895a29.png);
+	background-repeat: no-repeat;
+}
+
 .pv-panel-heading-dungeon:before {
 	width: 32px;
 	height: 32px;
