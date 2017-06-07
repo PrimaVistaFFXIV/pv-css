@@ -186,7 +186,7 @@ img.mdl-img__quest {
 
 .mdl-title__ancher {
 	position: relative;
-	margin: 0 0 10px -30px;
+	margin: 0 0 10px 0;
 	padding-left: 30px;
 	background: url(http://img.finalfantasyxiv.com/lds/pc/global/img/news/ic_title.svg?1476350994) no-repeat 6px 7px;
 	-moz-background-size: 16px 16px;
@@ -204,9 +204,9 @@ img.mdl-img__quest {
 	position: relative;
 	padding: 8px 30px 8px 60px;
 	margin-top: 0px;
-	margin-right: -50px;
+	margin-right: -20px;
 	margin-bottom: 24px;
-	margin-left: -60px;;
+	margin-left: -20px;;
 	background: #75b324;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
