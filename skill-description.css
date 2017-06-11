@@ -1,0 +1,364 @@
+.pv-db-action {
+	background: #2e2e2e;
+	width: 363px;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: left;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.pv-db-action .pv-db-header {
+	min-height: 50px;
+}
+
+.pv-db-action .pv-db-description {
+	min-height: 10px;
+	color: #ddd;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.pv-db-left {
+	float: left;
+}
+
+.pv-db-right {
+	float: right;
+}
+
+.pv-db-clear{
+	clear: both;
+}
+
+.pv-db-icon {
+	border-left: 2px solid #111;
+	border-right: 2px solid #111;
+	border-bottom: 2px solid #111;
+	border-radius: 6px;
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+}
+
+.pv-db-header_info{
+	padding-top: 0px;
+}
+
+.pv-db-name {
+	color: #ddd;
+	font-size: 15px;
+}
+
+.pv-db-use {
+	margin-top: 5px;
+	font-size: 12px;
+	width: 298px;
+}
+
+.pv-db-type {
+	display: inline-block;
+	color: #C5B69D;
+}
+
+.pv-db-ranges {
+	display: inline-block;
+}
+
+.pv-db-distance {
+	display: inline-block;
+	color: #ddd;
+	margin: 0 10px;
+}
+
+.pv-db-deemphasize {
+	color: #959595;
+}
+
+.pv-db-attributes {
+	margin-top: 10px;
+}
+
+.pv-db-attributes .pv-db-attribute {
+	display: inline-block;
+	text-align: right;
+	margin-right: 5px;
+	width: 31.5%;
+}
+
+.pv-db-attributes .pv-db-attribute:last-child {
+	margin-right: 0px !important;
+}
+
+.pv-db-attributes .pv-db-name{
+	color: #C5B69D;
+	font-size: 12px;
+}
+
+.pv-db-attributes .pv-db-value {
+	color: #ddd;
+	text-align: right;
+	font-size: 18px;
+	position: relative;
+	z-index: 2;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.pv-db-attributes hr {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	border: 3px solid #595959 !important;
+	border-radius: 5px !important;
+	position: relative;
+	top: -10px;
+	left: 1px;
+	z-index: 1;
+}
+
+.pv-db-line{
+	margin-top: -6px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+}
+
+.pv-db-line-a{
+	border: 1px solid rgba(10, 10, 10, 1);
+}
+
+.pv-db-line-b{
+	border: 1px solid #595959;
+}
+
+.pv-db-description p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.pv-db-description .pv-db-green {
+	color: #6CC46C;
+}
+
+.pv-db-description .pv-db-yellow {
+	color: #f2f57e;
+}
+
+.pv-db-description .pv-db-orange {
+	color: #e47118;
+}
+
+.pv-db-description .pv-db-mb2 {
+	margin-bottom: 2px !important;
+}
+
+.pv-db-description .pv-db-acquisition {
+	display: table-cell;
+	color: #C5B69D;
+	width: 100px;
+}
+
+.pv-db-description .pv-db-data {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.pv-db-description .pv-db-level {
+	color: #88a32e;
+	display: table-cell;
+	vertical-align: bottom;
+	padding-left: 2px;
+}
+
+.pv-db-description .pv-db-tank_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5937d60e002aa818c60df59c.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0;
+}
+.pv-db-description .pv-db-healer_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5937d60e002aa818c60df59c.png);
+	background-repeat: no-repeat;
+	background-position: -19px 0;
+}
+.pv-db-description .pv-db-melee_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5937d60e002aa818c60df59c.png);
+	background-repeat: no-repeat;
+	background-position: -39px 0;
+}
+.pv-db-description .pv-db-ranged_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5937d60e002aa818c60df59c.png);
+	background-repeat: no-repeat;
+	background-position: -58px 0;
+}
+.pv-db-description .pv-db-caster_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5937d60e002aa818c60df59c.png);
+	background-repeat: no-repeat;
+	background-position: -77px 0;
+}
+
+.pv-db-description .pv-db-job_icon{
+	content: " ";
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 18px;
+	-moz-background-size: auto 18px;
+	-o-background-size: auto 18px;
+	-webkit-background-size: auto 18px;
+	background-size: auto 18px;
+	display: table-cell;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/593be7de002aa818c852735d.png);
+	background-repeat: no-repeat;
+}
+
+.pv-db-description .pv-db-arc_icon{
+	background-position: 0px 0;
+}
+
+.pv-db-description .pv-db-gla_icon{
+	background-position: -20px 0;
+}
+
+.pv-db-description .pv-db-lnc_icon{
+	background-position: -40px 0;
+}
+
+.pv-db-description .pv-db-mrd_icon{
+	background-position: -60px 0;
+}
+
+.pv-db-description .pv-db-pgl_icon{
+	background-position: -80px 0;
+}
+
+.pv-db-description .pv-db-acn_icon{
+	background-position: -100px 0;
+}
+
+.pv-db-description .pv-db-cnj_icon{
+	background-position: -120px 0;
+}
+
+.pv-db-description .pv-db-thm_icon{
+	background-position: -140px 0;
+}
+
+.pv-db-description .pv-db-rog_icon{
+	background-position: -160px 0;
+}
+
+.pv-db-description .pv-db-brd_icon{
+	background-position: -180px 0;
+}
+
+.pv-db-description .pv-db-drg_icon{
+	background-position: -200px 0;
+}
+
+.pv-db-description .pv-db-mnk_icon{
+	background-position: -220px 0;
+}
+
+.pv-db-description .pv-db-pld_icon{
+	background-position: -240px 0;
+}
+
+.pv-db-description .pv-db-war_icon{
+	background-position: -260px 0;
+}
+
+.pv-db-description .pv-db-blm_icon{
+	background-position: -280px 0;
+}
+
+.pv-db-description .pv-db-whm_icon{
+	background-position: -300px 0;
+}
+
+.pv-db-description .pv-db-sch_icon{
+	background-position: -320px 0;
+}
+
+.pv-db-description .pv-db-smn_icon{
+	background-position: -340px 0;
+}
+
+.pv-db-description .pv-db-nin_icon{
+	background-position: -360px 0;
+}
+
+.pv-db-description .pv-db-ast_icon{
+	background-position: -380px 0;
+}
+
+.pv-db-description .pv-db-drk_icon{
+	background-position: -400px 0;
+}
+
+.pv-db-description .pv-db-mch_icon{
+	background-position: -420px 0;
+}
+
+.pv-center {
+	text-align: center;
+}
+
+ul.pv-h_list{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+    overflow: auto;
+}
+
+ul.pv-h_list>li {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
