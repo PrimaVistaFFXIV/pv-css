@@ -322,7 +322,7 @@ li.pv-item>.label {
 
 .pv-character_rol_tank:hover {
 	color: #fff;
-	background-color: #354595;
+	background-color: #485fd0;
 }
 
 .pv-character_rol_healer {
@@ -333,7 +333,7 @@ li.pv-item>.label {
 
 .pv-character_rol_healer:hover {
 	color: #fff;
-	background-color: #3a6329;
+	background-color: #467838;
 }
 
 .pv-character_rol_dps {
@@ -344,7 +344,7 @@ li.pv-item>.label {
 
 .pv-character_rol_dps:hover {
 	color: #fff;
-	background-color: #663535;
+	background-color: #7e393a;
 }
 
 .pv-character_side_icon {
