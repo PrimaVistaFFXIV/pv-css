@@ -364,7 +364,7 @@ li.pv-item>.label {
 	-webkit-background-size: auto 35px;
 	background-size: auto 35px;
 	display: block;
-	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5917a5ba002aa80b84fe114b.png);
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/5950e4e7002aa80b7f3ccd37.png);
 	background-repeat: no-repeat;
 }
 
@@ -422,6 +422,14 @@ li.pv-item>.label {
 
 .pv-character_side_mch_icon:before {
 	background-position: -420px 0;
+}
+
+.pv-character_side_rdm_icon:before {
+	background-position: -455px 0;
+}
+
+.pv-character_side_sam_icon:before {
+	background-position: -490px 0;
 }
 
 .pv-box_element {
