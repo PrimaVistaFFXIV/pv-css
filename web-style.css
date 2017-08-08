@@ -352,6 +352,27 @@ li.pv-item>.label {
 	position: relative;
 }
 
+.pv-no_character_side_icon {
+	padding: 7.5px 0px 17.5px 40px;
+	position: relative;
+}
+
+.pv-no_character_side_icon:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35px;
+	height: 35px;
+	-moz-background-size: auto 35px;
+	-o-background-size: auto 35px;
+	-webkit-background-size: auto 35px;
+	background-size: auto 35px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
+	background-repeat: no-repeat;
+}
+
 .pv-character_side_icon:before {
 	content: " ";
 	position: absolute;
@@ -369,6 +390,10 @@ li.pv-item>.label {
 }
 
 .pv-character_side_icon>p {
+	margin-bottom: 0 !important;
+}
+
+.pv-no_character_side_icon>p {
 	margin-bottom: 0 !important;
 }
 
@@ -430,6 +455,30 @@ li.pv-item>.label {
 
 .pv-character_side_sam_icon:before {
 	background-position: -490px 0;
+}
+
+.pv-no_character_side_tank_icon:before {
+	background-position: 0px 0;
+}
+
+.pv-no_character_side_healer_icon:before {
+	background-position: -35px 0;
+}
+
+.pv-no_character_side_dps_icon:before {
+	background-position: -70px 0;
+}
+
+.pv-no_character_side_melee_icon:before {
+	background-position: -105px 0;
+}
+
+.pv-no_character_side_ranged_icon:before {
+	background-position: -140px 0;
+}
+
+.pv-no_character_side_caster_icon:before {
+	background-position: -175px 0;
 }
 
 .pv-box_element {
