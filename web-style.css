@@ -558,37 +558,79 @@ li.pv-item>.label {
 .pv-panel-heading-tank:before {
 	width: 32px;
 	height: 32px;
-	-moz-background-size: 32px 32px;
-	-o-background-size: 32px 32px;
-	-webkit-background-size: 32px 32px;
-	background-size: 32px 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
 	display: block;
-	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de7ba002aa8354e8bbeab.png);
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
 	background-repeat: no-repeat;
+	background-position: 0px 0;
 }
 
 .pv-panel-heading-healer:before {
 	width: 32px;
 	height: 32px;
-	-moz-background-size: 32px 32px;
-	-o-background-size: 32px 32px;
-	-webkit-background-size: 32px 32px;
-	background-size: 32px 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
 	display: block;
-	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de878002aa8166c895a21.png);
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
 	background-repeat: no-repeat;
+	background-position: -32px 0;
 }
 
 .pv-panel-heading-dps:before {
 	width: 32px;
 	height: 32px;
-	-moz-background-size: 32px 32px;
-	-o-background-size: 32px 32px;
-	-webkit-background-size: 32px 32px;
-	background-size: 32px 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
 	display: block;
-	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/589de8a6002aa84d7bbed236.png);
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
 	background-repeat: no-repeat;
+	background-position: -64px 0;
+}
+
+.pv-panel-heading-melee:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
+	background-repeat: no-repeat;
+	background-position: -96px 0;
+}
+
+.pv-panel-heading-ranged:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
+	background-repeat: no-repeat;
+	background-position: -128px 0;
+}
+
+.pv-panel-heading-caster:before {
+	width: 32px;
+	height: 32px;
+	-moz-background-size: auto 32px;
+	-o-background-size: auto 32px;
+	-webkit-background-size: auto 32px;
+	background-size: auto 32px;
+	display: block;
+	background-image: url(https://cdn.guildwork.net/files/55e3cf66002aa81274125a6c/598918c5002aa80baa4e32d6.png);
+	background-repeat: no-repeat;
+	background-position: -160px 0;
 }
 
 .pv-panel-heading-crafter:before {
