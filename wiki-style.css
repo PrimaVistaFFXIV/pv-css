@@ -455,6 +455,17 @@ li {
 	border-bottom: 4px solid #75b324;
 }
 
+.mdl-title__headline {
+	padding: 0 0 0 28px;
+	background: url(https://img.finalfantasyxiv.com/lds/h/F/BufQExgmJmDYlPBJ6J6zqWr1Zk.svg) no-repeat 6px 1px;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	font-weight: bold;
+	color: #6b993d;
+}
+
 .mdl-table {
 	margin: 0 auto 32px;
 }
