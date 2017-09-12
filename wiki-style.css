@@ -467,9 +467,10 @@ li {
 }
 
 h3.mdl-title__headline {
-	font-size: 15px;
+	font-size: 14px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	line-height: 1.5;
 }
 
 .mdl-table {
