@@ -466,7 +466,7 @@ li {
 	color: #6b993d;
 }
 
-.mdl-title__headline h3 {
+h3.mdl-title__headline {
 	font-size: 14px;
 	margin-top: 20px;
 	margin-bottom: 10px;
