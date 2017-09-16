@@ -17,6 +17,10 @@
 	font-size: 14px;
 }
 
+#page-contents p {
+	margin: 0;
+}
+
 /* Images */
 
 #page-contents img {
@@ -88,6 +92,10 @@
 	color: #d98041 !important;
 }
 
+.mdl-color__notes {
+	color: #a62137 !important;
+}
+
 .mdl-color__notes-m16 {
 	color: #a62137 !important;
 	margin-bottom: 16px;
@@ -99,6 +107,14 @@
 
 .mdl-space--xs {
 	margin-bottom: 8px !important;
+}
+
+.mdl-space--md {
+	margin-bottom: 24px !important;
+}
+
+.mdl-space--lg {
+	margin-bottom: 32px !important;
 }
 
 .mdl-space--48 {
@@ -166,6 +182,96 @@
 	-webkit-background-size: 16px 16px;
 	background-size: 16px 16px;
 	font-size: 12px;
+}
+
+/* ### */
+
+/* Table */
+
+th {
+	text-align: center;
+}
+
+.mdl-table-m16 {
+	max-width: 560px;
+	width: 100%;
+	margin: 0 auto 16px;
+}
+
+.mdl-table__before, .mdl-table-m16__before {
+	background: #737373 !important;
+	color: #fff !important;
+}
+
+.mdl-table__layout, .mdl-table__before_after, .mdl-table-m16__layout, .mdl-table-m16__before_after {
+	width: 100%;
+}
+
+.mdl-table__layout {
+	width: 100%;
+}
+
+.mdl-table__layout--spacer, .mdl-table__before_after--spacer, .mdl-table-m16__layout--spacer, .mdl-table-m16__before_after--spacer {
+	background: none !important;
+	padding: 0 !important;
+	min-width: 10px;
+}
+
+.mdl-table__layout th, .mdl-table__before_after th, .mdl-table-m16__layout th, .mdl-table-m16__before_after th {
+	background: #75b324;
+	padding: 3px 8px 2px 8px;
+	font-weight: normal;
+	color: #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.mdl-table__icon--arrow, .mdl-table-m16__icon--arrow {
+	background: url(https://img.finalfantasyxiv.com/lds/h/T/8h6sCiTwyPXVkygv1Twn1zKlG4.svg) no-repeat center center;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	min-width: 32px !important;
+	width: 32px;
+	display: table-cell;
+	height: auto;
+	border-collapse: collapse;
+}
+
+.mdl-table__icon--arrow, .mdl-table-m16__icon--arrow {
+	background: url(https://img.finalfantasyxiv.com/lds/h/T/8h6sCiTwyPXVkygv1Twn1zKlG4.svg) no-repeat center center;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	width: 32px;
+	display: table-cell;
+	height: auto;
+	border-collapse: collapse;
+	border-bottom: none !important;
+}
+
+.mdl-table__layout td, .mdl-table__before_after td, .mdl-table-m16__layout td, .mdl-table-m16__before_after td {
+	padding: 8px 8px 6px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #b3b3b3;
+	vertical-align: middle;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.mdl-table__layout td:nth-child(2), .mdl-table__before_after td:nth-child(2), .mdl-table-m16__layout td:nth-child(2), .mdl-table-m16__before_after td:nth-child(2) {
+	padding: 0 !important;
 }
 
 /* ### */
