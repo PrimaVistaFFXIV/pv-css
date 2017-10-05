@@ -109,6 +109,10 @@ p {
 	margin-bottom: 8px !important;
 }
 
+.mdl-space--sm {
+	margin-bottom: 16px !important;
+}
+
 .mdl-space--md {
 	margin-bottom: 24px !important;
 }
