@@ -84,6 +84,12 @@ p {
 	line-height: 1.5;
 }
 
+.mdl-text__sm {
+	margin-bottom: 32px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
 .mdl-color__green {
 	color: #6b993d !important;
 }
@@ -146,6 +152,37 @@ p {
 	-o-background-size: 16px 16px;
 	-webkit-background-size: 16px 16px;
 	background-size: 16px 16px;
+}
+
+.mdl-list__basic li ul {
+	margin-top: 2px;
+	margin-bottom: 0;
+	width: 541px;
+	overflow: hidden;
+	line-height: 1;
+}
+
+.mdl-list__basic li ul li {
+	display: inline-block;
+	min-width: 258px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+	padding-right: 0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.mdl-list__basic li li {
+	padding: 0 0 0 20px;
+	margin: 0 0 0 0;
+	background: url(https://img.finalfantasyxiv.com/lds/h/0/ET3CvAQSSu5TzibfCo3BI8baRc.svg) no-repeat 2px -1px;
+	-moz-background-size: 16px 16px;
+	-o-background-size: 16px 16px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	font-size: 12px;
 }
 
 .mdl-text__indent {
