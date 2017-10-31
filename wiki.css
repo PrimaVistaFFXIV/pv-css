@@ -207,6 +207,10 @@ th {
 	color: #fff !important;
 }
 
+.mdl-table__layout--bdr_none, .mdl-table__before_after--bdr_none, .mdl-table-m16__layout--bdr_none, .mdl-table-m16__before_after--bdr_none {
+	border-bottom: none !important;
+}
+
 .mdl-table__layout, .mdl-table__before_after, .mdl-table-m16__layout, .mdl-table-m16__before_after {
 	width: 100%;
 }
