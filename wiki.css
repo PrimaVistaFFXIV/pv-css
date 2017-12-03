@@ -111,6 +111,10 @@ p {
 	margin-bottom: 0px !important;
 }
 
+.mdl-space--4 {
+	margin-bottom: 4px !important;
+}
+
 .mdl-space--xs {
 	margin-bottom: 8px !important;
 }
