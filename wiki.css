@@ -135,6 +135,10 @@ p {
 	margin-bottom: 48px !important;
 }
 
+.mdl-layout__left {
+	text-align: left !important;
+}
+
 /* ### */
 
 /* List */
